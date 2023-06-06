@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "chipsets")(type "KiCad")(uri "C:/Users/Admin/Desktop/kicad-retro-main/chipsets/chipsets.kicad_sym")(options "")(descr ""))
+  (lib (name "virge")(type "KiCad")(uri "${KIPRJMOD}/virge.kicad_sym")(options "")(descr ""))
+  (lib (name "slots")(type "KiCad")(uri "C:/Users/Admin/Desktop/kicad-retro-main/slots/slots.kicad_sym")(options "")(descr ""))
+)
