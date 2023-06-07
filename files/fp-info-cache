@@ -1,4 +1,4 @@
-21572759626188379
+21574445766601894
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89312,6 +89312,13 @@ PCI bus Edge Connector
 0
 286
 174
+VLB
+SOJ-40_10.16x26.00mm_P1.27mm
+
+
+0
+40
+40
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
