@@ -1251,7 +1251,6 @@
   )
 
 
-
   (wire (pts (xy 66.04 151.13) (xy 60.96 151.13))
     (stroke (width 0) (type default))
     (uuid 02a185c3-43d4-4fee-ad18-fd1969fe1f3d)
