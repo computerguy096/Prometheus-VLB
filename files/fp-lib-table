@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "PCI")(type "KiCad")(uri "C:/Users/Admin/Desktop/kicad-retro-main/slots/PCI.pretty")(options "")(descr ""))
   (lib (name "VLB")(type "KiCad")(uri "${KIPRJMOD}/VLB.pretty")(options "")(descr ""))
 )
