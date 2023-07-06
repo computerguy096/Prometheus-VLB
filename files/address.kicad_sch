@@ -2103,6 +2103,7 @@
     )
   )
 
+
   (junction (at 125.73 147.32) (diameter 0) (color 0 0 0 0)
     (uuid 0e90ff13-9e00-4ec3-9ec0-7d4d9e1da2a1)
   )
@@ -2111,6 +2112,12 @@
   )
   (junction (at 73.66 26.67) (diameter 0) (color 0 0 0 0)
     (uuid 694e26c1-5eca-46bf-b4ce-8c8e3821aaab)
+  )
+  (junction (at 120.65 20.32) (diameter 0) (color 0 0 0 0)
+    (uuid a9a68c5f-bcc7-4126-bfb9-1ef5c0574b23)
+  )
+  (junction (at 147.32 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid eebce793-9769-4260-bf26-a802f73aa7be)
   )
 
   (no_connect (at 204.47 31.75) (uuid 16434522-98eb-459c-9a9d-4ed3a04aa1f1))
@@ -2224,7 +2231,7 @@
     (stroke (width 0) (type default))
     (uuid 1e8468d6-ae9f-494e-b2c5-7585e4b17215)
   )
-  (wire (pts (xy 120.65 25.4) (xy 120.65 30.48))
+  (wire (pts (xy 120.65 20.32) (xy 120.65 30.48))
     (stroke (width 0) (type default))
     (uuid 1ed88cb7-3560-45d5-b449-24fba69a67fb)
   )
@@ -2247,6 +2254,14 @@
   (wire (pts (xy 219.71 26.67) (xy 219.71 31.75))
     (stroke (width 0) (type default))
     (uuid 2311e5d4-9bb9-4b37-8782-0beaff97eb76)
+  )
+  (wire (pts (xy 147.32 20.32) (xy 147.32 25.4))
+    (stroke (width 0) (type default))
+    (uuid 239b9865-7eb5-4e8f-969a-c9dfdc3782c9)
+  )
+  (wire (pts (xy 147.32 50.8) (xy 147.32 55.88))
+    (stroke (width 0) (type default))
+    (uuid 25d6dd3f-b294-4dc3-a76e-936eb739439c)
   )
   (wire (pts (xy 217.17 26.67) (xy 217.17 31.75))
     (stroke (width 0) (type default))
@@ -2408,7 +2423,7 @@
     (stroke (width 0) (type default))
     (uuid 60eba7c2-f4f2-4958-8eb5-1bd065b0ea33)
   )
-  (wire (pts (xy 138.43 55.88) (xy 143.51 55.88))
+  (wire (pts (xy 138.43 55.88) (xy 147.32 55.88))
     (stroke (width 0) (type default))
     (uuid 612cbe2f-a059-4569-87f8-6855d7800dd3)
   )
@@ -2652,7 +2667,7 @@
     (stroke (width 0) (type default))
     (uuid c5655d6e-f89f-4bf6-91c8-80c99d9c4280)
   )
-  (wire (pts (xy 143.51 55.88) (xy 143.51 58.42))
+  (wire (pts (xy 147.32 55.88) (xy 147.32 57.15))
     (stroke (width 0) (type default))
     (uuid c62933e8-8256-468e-9dc1-e345bee58140)
   )
@@ -2679,6 +2694,10 @@
   (wire (pts (xy 251.46 113.03) (xy 260.35 113.03))
     (stroke (width 0) (type default))
     (uuid d132bc7f-9ce1-496d-958f-874df956437f)
+  )
+  (wire (pts (xy 120.65 20.32) (xy 147.32 20.32))
+    (stroke (width 0) (type default))
+    (uuid d9f09a02-7bef-459d-b687-44f77f6d68ad)
   )
   (wire (pts (xy 73.66 26.67) (xy 77.47 26.67))
     (stroke (width 0) (type default))
@@ -3465,7 +3484,7 @@
   (symbol (lib_id "74xx:74HC04") (at 49.53 82.55 0) (unit 6)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ee22df2-bb4b-4dbb-ac37-c06aedaa87f7)
-    (property "Reference" "U9" (at 49.53 74.93 0)
+    (property "Reference" "U8" (at 49.53 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7404" (at 49.53 77.47 0)
@@ -3494,7 +3513,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U9") (unit 6)
+          (reference "U8") (unit 6)
         )
       )
     )
@@ -3503,7 +3522,7 @@
   (symbol (lib_id "74xx_IEEE:7408") (at 101.6 50.8 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2369c867-72f2-4686-97e3-19a4f5cbd791)
-    (property "Reference" "U10" (at 111.76 44.45 0)
+    (property "Reference" "U9" (at 111.76 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7408" (at 111.76 46.99 0)
@@ -3532,7 +3551,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U10") (unit 3)
+          (reference "U9") (unit 3)
         )
       )
     )
@@ -3561,7 +3580,7 @@
           (reference "R5") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "R17") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -3858,7 +3877,7 @@
           (reference "U1") (unit 2)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U1") (unit 2)
+          (reference "U7") (unit 2)
         )
       )
     )
@@ -3896,7 +3915,7 @@
   (symbol (lib_id "74xx:74HC04") (at 49.53 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36bf301f-73fd-410b-92b2-b9d5989221cb)
-    (property "Reference" "U9" (at 49.53 24.13 0)
+    (property "Reference" "U8" (at 49.53 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7404" (at 49.53 26.67 0)
@@ -3925,7 +3944,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U9") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -4166,7 +4185,7 @@
           (reference "U1") (unit 7)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U1") (unit 7)
+          (reference "U7") (unit 7)
         )
       )
     )
@@ -4175,7 +4194,7 @@
   (symbol (lib_id "74xx_IEEE:7408") (at 73.66 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ba5b51f-ec2f-4beb-aea0-3970539bfc0a)
-    (property "Reference" "U10" (at 83.82 33.02 0)
+    (property "Reference" "U9" (at 83.82 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7408" (at 83.82 35.56 0)
@@ -4204,7 +4223,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U10") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -4241,7 +4260,7 @@
   (symbol (lib_id "74xx_IEEE:7408") (at 127 68.58 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4997852b-44ef-4153-ae91-7e30cbc9520e)
-    (property "Reference" "U10" (at 137.16 62.23 0)
+    (property "Reference" "U9" (at 137.16 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7408" (at 137.16 64.77 0)
@@ -4270,25 +4289,25 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U10") (unit 4)
+          (reference "U9") (unit 4)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 143.51 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 147.32 57.15 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52d14964-04ac-4bf7-9d96-bc285c4d6e14)
-    (property "Reference" "#PWR045" (at 143.51 64.77 0)
+    (property "Reference" "#PWR045" (at 147.32 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 143.51 63.5 0)
+    (property "Value" "GND" (at 147.32 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 143.51 58.42 0)
+    (property "Footprint" "" (at 147.32 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 143.51 58.42 0)
+    (property "Datasheet" "" (at 147.32 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8285244f-95a2-464a-ad46-c38cdead0aae))
@@ -4299,6 +4318,47 @@
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
           (reference "#PWR045") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "74xx:74HC04") (at 147.32 38.1 0) (unit 7)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 56313330-eadb-44f8-94c4-62831f2b3f52)
+    (property "Reference" "U8" (at 137.16 36.83 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "7404" (at 137.16 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm" (at 147.32 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" (at 147.32 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5cfa5ffa-263c-4f54-aa34-8d85ab1ebf72))
+    (pin "2" (uuid 72ed5a36-0a69-4185-a5bd-7ad3ee175028))
+    (pin "3" (uuid c124d8d5-ee33-48b4-96e8-fbc1bd2b3d7f))
+    (pin "4" (uuid de3e4197-ff56-431d-96ca-df64bc4795a9))
+    (pin "5" (uuid d5e9e7a5-4aa7-4108-80e8-6b1e92f13f1f))
+    (pin "6" (uuid fa0ddd1b-93e7-449d-a7f0-bd55e0826eb7))
+    (pin "8" (uuid f6cf7b61-8fa7-44f8-b365-ae3c04472cfc))
+    (pin "9" (uuid c07f244b-2b83-4a8a-98da-8b33dcfba06f))
+    (pin "10" (uuid ce74ea94-5d80-41d9-a81f-ada641d6eceb))
+    (pin "11" (uuid 31ab4816-5ae7-4cc6-8276-5d1e8874aa22))
+    (pin "12" (uuid 4982c1cc-6342-4dd1-911f-f651aec19686))
+    (pin "13" (uuid 522c0050-df0f-4187-8c15-da98f099003b))
+    (pin "14" (uuid 39fa146c-b8e2-4c8a-beb0-534fe42d43cd))
+    (pin "7" (uuid dd8031e2-2819-41d4-b12d-78a33e91dc4b))
+    (instances
+      (project "virge-vlb"
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
+          (reference "U8") (unit 7)
+        )
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c"
+          (reference "U8") (unit 7)
         )
       )
     )
@@ -4539,7 +4599,7 @@
           (reference "U1") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U1") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -4548,7 +4608,7 @@
   (symbol (lib_id "74xx:74HC04") (at 49.53 44.45 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b699f14-874d-411c-8ca9-98fc8d608487)
-    (property "Reference" "U9" (at 49.53 36.83 0)
+    (property "Reference" "U8" (at 49.53 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7404" (at 49.53 39.37 0)
@@ -4577,7 +4637,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U9") (unit 2)
+          (reference "U8") (unit 2)
         )
       )
     )
@@ -4634,7 +4694,7 @@
           (reference "R5") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "R23") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -4663,7 +4723,7 @@
           (reference "C20") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "C20") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -4692,7 +4752,7 @@
           (reference "R5") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "R22") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -4783,19 +4843,19 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 120.65 25.4 0) (unit 1)
+  (symbol (lib_id "power:VCC") (at 120.65 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83f85067-a43c-444f-a186-e7ddb33b15ad)
-    (property "Reference" "#PWR026" (at 120.65 29.21 0)
+    (property "Reference" "#PWR026" (at 120.65 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 120.65 21.59 0)
+    (property "Value" "VCC" (at 120.65 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 25.4 0)
+    (property "Footprint" "" (at 120.65 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 120.65 25.4 0)
+    (property "Datasheet" "" (at 120.65 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 09a7fc0f-d981-4677-beab-4756b2024c63))
@@ -4814,7 +4874,7 @@
   (symbol (lib_id "74xx:74HC04") (at 128.27 30.48 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98227cbd-5c6c-4983-aef5-c1a654feb2d5)
-    (property "Reference" "U9" (at 128.27 22.86 0)
+    (property "Reference" "U8" (at 128.27 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7404" (at 128.27 25.4 0)
@@ -4843,7 +4903,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U9") (unit 4)
+          (reference "U8") (unit 4)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c"
           (reference "U9") (unit 4)
@@ -4939,7 +4999,7 @@
   (symbol (lib_id "74xx_IEEE:7408") (at 76.2 63.5 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bed6c3c1-44aa-4cf9-a7a1-35789e15f3e1)
-    (property "Reference" "U10" (at 85.09 57.15 0)
+    (property "Reference" "U9" (at 85.09 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7408" (at 85.09 59.69 0)
@@ -4968,7 +5028,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U10") (unit 2)
+          (reference "U9") (unit 2)
         )
       )
     )
@@ -4997,7 +5057,7 @@
           (reference "R5") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "R24") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -5034,7 +5094,7 @@
   (symbol (lib_id "74xx:74HC04") (at 49.53 57.15 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc9059c0-8a69-4e89-b6d3-044ebe34a590)
-    (property "Reference" "U9" (at 49.53 49.53 0)
+    (property "Reference" "U8" (at 49.53 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7404" (at 49.53 52.07 0)
@@ -5063,7 +5123,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U9") (unit 3)
+          (reference "U8") (unit 3)
         )
       )
     )
@@ -5304,7 +5364,7 @@
   (symbol (lib_id "74xx:74HC04") (at 49.53 69.85 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3fda7ed-dd42-497b-a97b-41694815e5a4)
-    (property "Reference" "U9" (at 49.53 62.23 0)
+    (property "Reference" "U8" (at 49.53 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7404" (at 49.53 64.77 0)
@@ -5333,7 +5393,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "U9") (unit 5)
+          (reference "U8") (unit 5)
         )
       )
     )
