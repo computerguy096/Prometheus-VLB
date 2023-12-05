@@ -4,7 +4,7 @@ This is an open source video card, designed to be used in systems with a VLB slo
 As a bonus, this particular chip allows for a very easy implementation for the VL bus, with almost no support components required, even the RAMDAC is built into the chip.
 The card was designed from scratch, using only the official datasheet and photos of an STB Powergraph 64 for a few visual references.
 
-![Prometheus VLB rev 1B rendered PCB](images/kicad_PCB.jpg)
+![Prometheus VLB rev 1B rendered PCB](images/kicad_PCB.JPG)
 ## Features
 
 - S3 Trio64V+ (86C765) or S3 ViRGE (86C325)[1] video chip, with a powerful and very compatible 2D core, perfect for most DOS games
