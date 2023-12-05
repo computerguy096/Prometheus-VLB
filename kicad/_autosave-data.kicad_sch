@@ -2555,7 +2555,7 @@
     (uuid efedf3c0-1769-4319-b2ad-625825b7d0d0)
   )
 
-  (text_box "R6-R16 Series Termination 33 Ohm\nAdjust based on PCB final prod characteristics"
+  (text_box "R10-R21 Series Termination 33 Ohm\nAdjust based on PCB final prod characteristics"
     (at 69.85 149.86 0) (size 27.94 11.2522)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -2627,7 +2627,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 550f5686-db44-4387-8f98-8bf0a4e3c421)
   )
-  (text "Register configurations:\n(see pages 46-47 in the ViRGE doc)"
+  (text "Register configurations:\n(see pages 46-47 in the 64V+/ViRGE doc)"
     (at 154.94 19.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 571679f5-276f-431a-983d-29ca9447154c)

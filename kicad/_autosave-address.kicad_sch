@@ -2855,14 +2855,6 @@
     (uuid 4538590f-47d1-44d3-816d-1989c27a116b)
   )
 
-  (text_box "C15, reduce to 1 or 10nF depending on tested board parameters. (Reset stability)"
-    (at 127 170.18 0) (size 22.86 13.97)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid edcba4a7-3b17-41ab-b713-798d1839a452)
-  )
-
   (text "SAUP address decoding" (at 19.05 19.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 10c0179c-8157-4b0e-a364-b2a480f63d00)
