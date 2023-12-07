@@ -20,8 +20,19 @@ The card was designed from scratch, using only the official datasheet and photos
 
 Trio64V+ datasheet can be read [here](https://gitlab.com/ultimateretro/prometheus-vlb/-/blob/dev/docs/DB018-A_Trio64V+_Integrated_Graphics_Video_Accelerator_Jul95.pdf?ref_type=heads), and the ViRGE datasheet [here](https://gitlab.com/ultimateretro/prometheus-vlb/-/blob/dev/docs/DB019-B_ViRGE_Integrated_3D_Accelerator_Aug1996.pdf?ref_type=heads).
 
-## What about the video BIOS ?
+## FAQ
+> Is this for sale? Where can I buy one?
 
-The binary is available in the repository and can be found [here]
+Nope, it's not for sale, and I do not have any intentions to sell them. However, I am an advocate for open source hardware so the design is fully public (the gerbers, the schematic, everything, all provided under GPLv3) so you can build your own card freely.
+
+> What parts do I need to build a card?
+
+There is a BOM included in the repo, with all the parts and their quantities listed. The main thing to acquire is the S3 chip itself, which can be salvaged from PCI cards or bought as NOS trays. 
+
+**Be careful with the chip model, only 86C765 and 86C325 are fully pin compatible and will work!**
+
+> What about the video BIOS?
+
+The binary is from an STB Powergraph64 (closest card to this one in terms of design) and it is available in the repository right [here]
 
 
