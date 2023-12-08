@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "virge")(type "KiCad")(uri "D:/Documents/KiCad/6.0/projects/prometheus-vlb/files/virge.kicad_sym")(options "")(descr ""))
-)
