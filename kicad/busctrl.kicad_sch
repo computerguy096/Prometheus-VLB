@@ -1911,6 +1911,34 @@
     )
   )
 
+  (symbol (lib_id "power:VCC") (at 107.95 53.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2118ffc7-b619-403b-8545-5b06a15f3852)
+    (property "Reference" "#PWR026" (at 107.95 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 107.95 49.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 107.95 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 107.95 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9132f6e9-6488-4bde-a362-0a5aa99fb4d5))
+    (instances
+      (project "virge-vlb"
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c"
+          (reference "#PWR026") (unit 1)
+        )
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/485e825d-a3d2-4e3d-9ea7-d005dd511bf5"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 96.52 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47983280-c4a5-4cf8-bf3d-c61649862ccf)
@@ -1982,6 +2010,38 @@
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/485e825d-a3d2-4e3d-9ea7-d005dd511bf5"
           (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 107.95 57.15 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6cb35d50-f3a6-4676-8d53-bbc746c72516)
+    (property "Reference" "C20" (at 105.41 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 105.41 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 106.9848 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 107.95 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f19c3958-824d-403b-993b-99599820ccb5))
+    (pin "2" (uuid d9e2a2e1-4695-48ec-8bc0-760854b8fd89))
+    (instances
+      (project "virge-vlb"
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c"
+          (reference "C20") (unit 1)
+        )
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
+          (reference "C18") (unit 1)
+        )
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/485e825d-a3d2-4e3d-9ea7-d005dd511bf5"
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2147,6 +2207,31 @@
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/485e825d-a3d2-4e3d-9ea7-d005dd511bf5"
           (reference "#PWR047") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 107.95 60.96 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c4c5a8d2-47cc-4fbf-b526-c2b81ba3eaa0)
+    (property "Reference" "#PWR058" (at 107.95 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 111.76 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 107.95 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 107.95 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a53df7e1-7ca3-4c7c-ba73-9a50e97dec0a))
+    (instances
+      (project "virge-vlb"
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/485e825d-a3d2-4e3d-9ea7-d005dd511bf5"
+          (reference "#PWR058") (unit 1)
         )
       )
     )
