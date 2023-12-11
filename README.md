@@ -7,7 +7,7 @@ The card was designed from scratch, using only the official datasheet and photos
 ![Prometheus VLB rev 1B rendered PCB](images/kicad_PCB.JPG)
 ## Features
 
-- S3 Trio64V+ (86C765) or S3 ViRGE (86C325)[1] video chip, with a powerful and very compatible 2D core, perfect for most DOS games
+- S3 Trio64V+ (86C765) or S3 ViRGE (86C325)[^1] video chip, with a powerful and very compatible 2D core, perfect for most DOS games
 - up to 2MB of fast page or EDO memory, with clearance for SOJ sockets
 - configurable address range, with 32MB, 64MB and 1024MB as options
 - simple design, built in RAMDAC, only requires a few extra parts
@@ -16,23 +16,25 @@ The card was designed from scratch, using only the official datasheet and photos
 - common VGA connector placement, allows reusability for many of the old metallic brackets
 - small PCB, which does not extend below the card edge in the front, so it will not collide with keybord controller chips on some boards
 
+[^1]: S3 ViRGE support is experimental in VLB mode, since there are no drivers available for it.
+
 ## Documentation
 
 Trio64V+ datasheet can be read [here](https://gitlab.com/ultimateretro/prometheus-vlb/-/blob/dev/docs/DB018-A_Trio64V+_Integrated_Graphics_Video_Accelerator_Jul95.pdf?ref_type=heads), and the ViRGE datasheet [here](https://gitlab.com/ultimateretro/prometheus-vlb/-/blob/dev/docs/DB019-B_ViRGE_Integrated_3D_Accelerator_Aug1996.pdf?ref_type=heads).
 
 ## FAQ
-> Is this for sale? Where can I buy one?
 
-Nope, it's not for sale, and I do not have any intentions to sell them. However, I am an advocate for open source hardware so the design is fully public (the gerbers, the schematic, everything, all provided under GPLv3) so you can build your own card freely.
+**Q: Is this for sale? Where can I buy one?**
 
-> What parts do I need to build a card?
+> Nope, it's not for sale, and I do not have any intentions to sell them. However, I am an advocate for open source hardware so the design is fully public (the gerbers, the schematic, everything, all provided under GPLv3) so you can build your own card freely.
 
-There is a BOM included in the repo, with all the parts and their quantities listed. The main thing to acquire is the S3 chip itself, which can be salvaged from PCI cards or bought as NOS trays. 
+**Q: What parts do I need to build a card?**
 
+> There is a BOM included [in the repo](kicad/BOM.csv), with all the parts and their quantities listed. The main thing to acquire is the S3 chip itself, which can be salvaged from PCI cards or bought as NOS trays. 
 **Be careful with the chip model, only 86C765 and 86C325 are fully pin compatible and will work!**
 
-> What about the video BIOS?
+**Q: What about the video BIOS?**
 
-The binary is from an STB Powergraph64 (closest card to this one in terms of design) and it is available in the repository right [here]
+> The binary is from an STB Powergraph64 (closest card to this one in terms of design) and it is available in the repository right [here](VBIOS.BIN)
 
 
