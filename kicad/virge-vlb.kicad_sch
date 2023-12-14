@@ -2867,8 +2867,8 @@
     (property "Reference" "JP1" (at 106.68 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DDC 5V" (at 106.68 147.955 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "Conn_01x02" (at 106.68 147.955 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 104.14 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3051,7 +3051,7 @@
   (symbol (lib_id "Device:R") (at 60.96 93.98 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5bf592af-264a-4d6e-a684-f45c0a5e9530)
-    (property "Reference" "R8" (at 62.23 93.98 90)
+    (property "Reference" "R44" (at 63.5 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 62.865 96.52 90)
@@ -3068,7 +3068,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c"
-          (reference "R8") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -3077,10 +3077,10 @@
   (symbol (lib_id "Connector:DE15_Plug_HighDensity") (at 71.12 153.67 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 644005df-6389-4ac9-ba4e-adb89ce77ad6)
-    (property "Reference" "J2" (at 71.12 132.08 0)
+    (property "Reference" "CN1" (at 71.12 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "VGA" (at 71.12 134.62 0)
+    (property "Value" "VGA" (at 71.12 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "VLB:DSUB-15_female" (at 95.25 143.51 0)
@@ -3107,7 +3107,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c"
-          (reference "J2") (unit 1)
+          (reference "CN1") (unit 1)
         )
       )
     )
@@ -3437,7 +3437,7 @@
   (symbol (lib_id "Device:R") (at 212.09 77.47 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7469f5cd-0ccd-44d0-b213-7734ba874036)
-    (property "Reference" "R44" (at 210.82 74.93 90)
+    (property "Reference" "R46" (at 210.82 74.93 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150R" (at 210.82 80.01 90)
@@ -3454,7 +3454,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c"
-          (reference "R44") (unit 1)
+          (reference "R46") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/73bb2a59-bfac-4efc-8051-53849b0f9066"
           (reference "R16") (unit 1)
@@ -3853,7 +3853,7 @@
   (symbol (lib_id "Device:R") (at 43.18 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1cff86e-10fd-406a-a6eb-a2a832230955)
-    (property "Reference" "R46" (at 41.91 86.36 0)
+    (property "Reference" "R45" (at 41.91 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 41.91 88.9 0)
@@ -3870,7 +3870,7 @@
     (instances
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c"
-          (reference "R46") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
