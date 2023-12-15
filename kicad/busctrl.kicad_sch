@@ -1233,6 +1233,7 @@
     )
   )
 
+
   (junction (at 57.15 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 72db4c01-8f5b-4ba1-96e1-07e0d007bf43)
   )
@@ -2088,10 +2089,10 @@
   (symbol (lib_id "Device:C") (at 107.95 57.15 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cb35d50-f3a6-4676-8d53-bbc746c72516)
-    (property "Reference" "C20" (at 105.41 58.42 0)
+    (property "Reference" "C20" (at 105.41 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 105.41 54.61 0)
+    (property "Value" "100nF" (at 106.68 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 106.9848 53.34 0)
@@ -2111,7 +2112,7 @@
           (reference "C18") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/485e825d-a3d2-4e3d-9ea7-d005dd511bf5"
-          (reference "C10") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )

@@ -2109,6 +2109,7 @@
     )
   )
 
+
   (junction (at 125.73 147.32) (diameter 0) (color 0 0 0 0)
     (uuid 0e90ff13-9e00-4ec3-9ec0-7d4d9e1da2a1)
   )
@@ -3585,7 +3586,7 @@
           (reference "R5") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "R47") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -4699,7 +4700,7 @@
           (reference "R5") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4757,7 +4758,7 @@
           (reference "R5") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "R6") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4786,7 +4787,7 @@
           (reference "C14") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5062,7 +5063,7 @@
           (reference "R5") (unit 1)
         )
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )

@@ -31,7 +31,7 @@ Trio64V+ datasheet can be read [here](docs/DB018-A_Trio64V+_Integrated_Graphics_
 
 **Q: What parts do I need to build a card?**
 
-> There is a BOM included [in the repo](kicad/BOM.csv), with all the parts and their quantities listed. The main thing to acquire is the S3 chip itself, which can be salvaged from PCI cards or bought as NOS trays. 
+> There is a BOM included [in the repo](kicad/virge-vlb.csv), with all the parts and their quantities listed. The main thing to acquire is the S3 chip itself, which can be salvaged from PCI cards or bought as NOS trays. 
 **Be careful with the chip model, only 86C765 and 86C325 are fully pin compatible and will work!**
 
 **Q: What about the video BIOS?**
