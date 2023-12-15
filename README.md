@@ -15,7 +15,7 @@ The card was designed from scratch, using only the official datasheet and photos
 - fully configurable registers with pull-downs, allowing the tuning of various parameters like memory timings, etc.
 - flexible EEPROM implementation, allows DIP28, DIP32, as well as PLCC32 footprints
 - common VGA connector placement, allows reusability for many of the old metallic brackets
-- small PCB, which does not extend below the card edge in the front, so it will not collide with keybord controller chips on some boards
+- small PCB, which does not extend below the card edge in the front, so it will not collide with keyboard controller chips on some boards
 
 ![Prometheus VLB rev 1B rendered PCB](images/kicad_PCB.JPG)
 
@@ -37,6 +37,10 @@ Trio64V+ datasheet can be read [here](docs/DB018-A_Trio64V+_Integrated_Graphics_
 **Q: What about the video BIOS?**
 
 > The binary is from an STB Powergraph64 (closest card to this one in terms of design) and it is available in the repository right [here](VBIOS.BIN)
+
+**Q: Where can i find the gerber files?**
+
+> At `/kicad/gerber` on this repo.
 
 ## Footnotes
 
