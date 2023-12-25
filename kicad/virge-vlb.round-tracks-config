@@ -1,0 +1,6 @@
+Default	True	2.0	3
+Memory	False	2.0	3
+Power	True	2.0	3
+VLB_CTRL	True	2.0	3
+VLB_DQ	True	2.0	3
+False	True	False
