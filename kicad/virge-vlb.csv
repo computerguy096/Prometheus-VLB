@@ -1,4 +1,4 @@
-"Component Count:","93"
+"Component Count:","94"
 
 "Collated Components:"
 
@@ -14,12 +14,12 @@
 "9","15","R1, R2, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21","33R","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","",""
 "10","3","R3, R4, R5","75R","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","",""
 "11","3","R6, R7, R8","0R","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","",""
-"12","23","R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44","10K","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","1","",""
-"13","2","R45, R46","150R","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","",""
+"12","23","R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45","10K","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","1","",""
+"13","2","R46, R47","150R","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~","","","","",""
 "14","1","U1","74LS244","74xx:74LS244","Package_SO:SO-20_12.8x7.5mm_P1.27mm","http://www.ti.com/lit/ds/symlink/sn74ls244.pdf","","","","",""
 "15","1","U2","27C020","Memory_EPROM:27C020","VLB:EEPROM_combo","http://ww1.microchip.com/downloads/en/devicedoc/doc0570.pdf","","","","",""
 "16","4","U3, U4, U5, U6","V53C16258H",":HY51V18164B_1","VLB:SOJ-40_10.16x26.00mm_P1.27mm","","","","","",""
-"17","1","U7","86C325","virge:86C375","VLB:QFP-208","","","","","86C375 VL Bus","86C375"
+"17","1","U7","86C325","virge:86C765","VLB:QFP-208","","","","","86C765 VL Bus","86C765"
 "18","1","U8","7404","74xx:74HC04","Package_SO:SO-14_3.9x8.65mm_P1.27mm","https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf","","","","",""
 "19","1","U9","7408","74xx_IEEE:7408","Package_SO:SO-14_3.9x8.65mm_P1.27mm","","","","","",""
 "20","1","Y1","14.318MHz","Device:Crystal","Crystal:Crystal_HC18-U_Vertical","~","","","","",""
