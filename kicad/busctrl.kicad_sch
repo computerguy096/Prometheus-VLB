@@ -1300,6 +1300,10 @@
     (stroke (width 0) (type default))
     (uuid 093263b0-37ad-489a-9db1-7284f76ea425)
   )
+  (wire (pts (xy 45.72 92.71) (xy 57.15 92.71))
+    (stroke (width 0) (type default))
+    (uuid 0adee0c2-282c-4c84-9bce-28a59333288d)
+  )
   (wire (pts (xy 100.33 123.19) (xy 109.22 123.19))
     (stroke (width 0) (type default))
     (uuid 175aa0ca-9245-4d31-9e34-3e8c8baf0a1e)
@@ -1900,6 +1904,34 @@
       (project "virge-vlb"
         (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/485e825d-a3d2-4e3d-9ea7-d005dd511bf5"
           (reference "JP3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 45.72 92.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0c97a9a8-4bea-4337-9a5c-85b3505e1e1e)
+    (property "Reference" "#PWR062" (at 45.72 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 45.72 97.79 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 45.72 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 45.72 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d4929dc-f5fa-48e0-8418-5e9860953b56))
+    (instances
+      (project "virge-vlb"
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/485e825d-a3d2-4e3d-9ea7-d005dd511bf5"
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/e8216711-86b5-4276-82f4-4c7ed22b9a9c/9321f466-5ac6-411a-b039-07fb7f0cdeaa"
+          (reference "#PWR024") (unit 1)
         )
       )
     )
